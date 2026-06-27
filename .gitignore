@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/cma/web/node_modules
+/cma/web/.pnp
+/cma/web/.pnp.js
 
 # testing
-/coverage
+/cma/web/coverage
 
 # production
-/build
+/cma/web/build
 
 # environment
 .env
@@ -29,7 +29,7 @@ yarn-error.log*
 *.swp
 *.swo
 
-# client reference assets (copies live in public/images)
+# client reference assets (copies live in cma/web/public/images)
 /temp
 
 # local tooling
