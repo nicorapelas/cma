@@ -1,0 +1,51 @@
+export const extraMuralsItems = [
+  {
+    id: 'horse-riding',
+    title: 'Horse Riding',
+    icon: '/images/extra-murals/icons/horse-riding.png',
+    detailImage: '/images/extra-murals/photos/horse-riding.jpg',
+    color: '#8b5a2b',
+  },
+  {
+    id: 'swimming',
+    title: 'Swimming',
+    icon: '/images/extra-murals/icons/swimming.png',
+    detailImage: '/images/extra-murals/photos/swimming.jpg',
+    color: '#4ea8de',
+  },
+  {
+    id: 'computers',
+    title: 'Computers',
+    icon: '/images/extra-murals/icons/computers.png',
+    detailImage: '/images/extra-murals/photos/computers.jpg',
+    color: '#2a9d8f',
+  },
+  {
+    id: 'bootcamp',
+    title: 'Bootcamp',
+    icon: '/images/extra-murals/icons/bootcamp.png',
+    detailImage: '/images/extra-murals/photos/bootcamp.jpg',
+    color: '#1d3557',
+  },
+  {
+    id: 'gymnastics',
+    title: 'Gymnastics',
+    icon: '/images/extra-murals/icons/gymnastics.png',
+    detailImage: '/images/extra-murals/photos/gymnastics.jpg',
+    color: '#7b2cbf',
+  },
+  {
+    id: 'soccer',
+    title: 'Soccer',
+    icon: '/images/extra-murals/icons/soccer.png',
+    detailImage: '/images/extra-murals/photos/soccer.jpg',
+    color: '#2d6a4f',
+  },
+  {
+    id: 'arts-crafts',
+    title: 'Arts & Crafts',
+    icon: '/images/extra-murals/icons/arts-crafts.png',
+    detailImage: '/images/extra-murals/photos/arts-crafts.jpg',
+    color: '#e76f51',
+  },
+];

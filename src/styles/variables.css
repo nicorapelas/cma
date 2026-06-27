@@ -1,0 +1,36 @@
+:root {
+  --color-green-dark: #1a4d2e;
+  --color-green: #2d6a4f;
+  --color-green-light: #40916c;
+  --color-yellow: #f4a825;
+  --color-yellow-dark: #e09510;
+  --color-purple: #7b2cbf;
+  --color-purple-light: #9d4edd;
+  --color-pink: #e07a9a;
+  --color-blue: #4ea8de;
+  --color-teal: #2a9d8f;
+  --color-orange: #e76f51;
+  --color-cream: #faf8f4;
+  --color-cream-dark: #f0ebe3;
+  --color-tan: #e8dcc8;
+  --color-footer-bg: #0f2918;
+  --color-footer-accent: #5ec8e8;
+  --color-text: #2c3e2d;
+  --color-text-muted: #5a6b5c;
+  --color-white: #ffffff;
+
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Lato', 'Segoe UI', system-ui, sans-serif;
+  --font-script: 'Dancing Script', cursive;
+
+  --shadow-sm: 0 2px 8px rgba(26, 77, 46, 0.08);
+  --shadow-md: 0 4px 20px rgba(26, 77, 46, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --header-height: 80px;
+  --max-width: 1200px;
+  --section-padding: 4rem 1.5rem;
+}

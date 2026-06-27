@@ -1,0 +1,228 @@
+.footer {
+  background: var(--color-footer-bg);
+  color: var(--color-white);
+}
+
+.footer__main {
+  display: grid;
+  gap: 2.5rem;
+  padding: 3rem 1.5rem;
+}
+
+.footer__heading {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-footer-accent);
+  margin-bottom: 1.25rem;
+}
+
+.footer__heading-line {
+  display: block;
+  height: 1px;
+  background: var(--color-footer-accent);
+  margin-top: 0.5rem;
+  position: relative;
+  max-width: 180px;
+}
+
+.footer__heart {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.75rem;
+  color: var(--color-footer-accent);
+}
+
+.footer__contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.footer__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-footer-accent);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.footer__contact-list a,
+.footer__contact-list address {
+  font-style: normal;
+  color: var(--color-white);
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.footer__contact-list a:hover {
+  color: var(--color-footer-accent);
+}
+
+.footer__divider {
+  display: none;
+}
+
+.footer__links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
+}
+
+.footer__links-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__links-grid a {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.2s;
+}
+
+.footer__links-grid a:hover {
+  color: var(--color-footer-accent);
+}
+
+.footer__col--brand {
+  text-align: center;
+}
+
+.footer__tree {
+  width: 160px;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+}
+
+.footer__brand-name {
+  font-family: var(--font-script);
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__brand-tagline {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--color-green-light);
+  font-size: 0.95rem;
+}
+
+.footer__bar {
+  border-top: 1px solid rgba(94, 200, 232, 0.3);
+  padding: 1.25rem 0;
+}
+
+.footer__bar-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer__tagline {
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.footer__tagline-heart {
+  color: var(--color-footer-accent);
+  margin-right: 0.25rem;
+}
+
+.footer__tagline em {
+  font-family: var(--font-script);
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.text-purple { color: var(--color-purple-light); }
+.text-pink { color: var(--color-pink); }
+.text-blue { color: var(--color-footer-accent); }
+
+.footer__copyright {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--color-footer-accent);
+}
+
+.footer__facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-footer-accent);
+  color: var(--color-footer-bg);
+  font-weight: 700;
+  font-family: serif;
+}
+
+.footer__facebook:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 900px) {
+  .footer__main {
+    grid-template-columns: 1fr auto 1.2fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .footer__divider {
+    display: block;
+    width: 1px;
+    background: rgba(94, 200, 232, 0.3);
+    align-self: stretch;
+  }
+
+  .footer__bar-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer__tagline {
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .footer__copyright {
+    flex-shrink: 0;
+    padding: 0 1rem;
+    border-left: 1px solid rgba(94, 200, 232, 0.2);
+    border-right: 1px solid rgba(94, 200, 232, 0.2);
+  }
+}

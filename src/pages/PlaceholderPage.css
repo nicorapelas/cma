@@ -1,0 +1,23 @@
+.placeholder {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.placeholder__inner {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.placeholder__inner h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--color-green-dark);
+  margin-bottom: 1rem;
+}
+
+.placeholder__inner p {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
