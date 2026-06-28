@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
 import PlaceholderPage from './pages/PlaceholderPage';
 
 const pages = [
@@ -13,7 +14,6 @@ const pages = [
   { path: '/policies', title: 'Policies', description: 'School policies and important documents. Content coming soon.' },
   { path: '/about-montessori', title: 'About Montessori', description: 'Learn about the Montessori philosophy and approach. Content coming soon.' },
   { path: '/montessori-vs-mainstream', title: 'Montessori vs Mainstream', description: 'Understand how Montessori education differs from traditional schooling. Content coming soon.' },
-  { path: '/contact', title: 'Contact Us', description: 'Get in touch to book a tour or enquire about enrolment. A contact form will be added here soon.' },
 ];
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
           {pages.map((page) => (
             <Route
               key={page.path}
